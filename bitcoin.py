@@ -6,4 +6,5 @@ response = requests.get(url, params=params)
 data = response.json()
 print(f"Bitcoin:  ${data['bitcoin']['usd']:,.0f}")
 print(f"Ethereum: ${data['ethereum']['usd']:,.0f}")
+print('end')
 
